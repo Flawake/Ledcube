@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "SN74LVC373ARGYR")(type "KiCad")(uri "${KIPRJMOD}/Libs/ul_SN74LVC373ARGYR/KiCADv6/2025-09-28_13-31-19.kicad_sym")(options "")(descr ""))
+  (lib (name "B10B-PHDSS-B(LF)(SN)")(type "KiCad")(uri "${KIPRJMOD}/Libs/LIB_B10B-PHDSS-B_LF__SN_/B10B-PHDSS-B_LF__SN_/KiCad/B10B-PHDSS-B_LF__SN_.kicad_sym")(options "")(descr ""))
+)

@@ -1,0 +1,9 @@
+Manufacturer=JST (JAPAN SOLDERLESS TERMINALS)
+PartNumber=B10B-PHDSS-B(LF)(SN)
+PartCategory=Connector
+PackageCategory=Other
+PinCount=10
+Version=2.2
+Released=2023-02-02 04:13:24
+Downloaded=2025-09-29 12:27:23
+3D=Y

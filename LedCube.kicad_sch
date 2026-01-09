@@ -1,0 +1,360 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "d841f243-58ca-43b1-97d8-f9d66a21f32b")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 115.57 44.45)
+		(size 46.99 64.77)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "1543c3ab-a21d-4a2c-8cb4-48acece40d31")
+		(property "Sheetname" "Core"
+			(at 115.57 43.7384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Core.kicad_sch"
+			(at 115.57 109.8046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "LedCube"
+				(path "/d841f243-58ca-43b1-97d8-f9d66a21f32b"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 58.42 67.31)
+		(size 34.29 24.13)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "7f206dc7-1d0d-432b-8cee-0669d6ee5afd")
+		(property "Sheetname" "DC-DC_converter"
+			(at 58.42 66.5984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "DC-DC_converter.kicad_sch"
+			(at 58.42 92.0246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "LedCube"
+				(path "/d841f243-58ca-43b1-97d8-f9d66a21f32b"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 173.99 44.45)
+		(size 60.96 64.77)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "c4ffdf96-4e78-44c2-894f-e02bd9259c73")
+		(property "Sheetname" "Multiplexer"
+			(at 173.99 43.7384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Multiplexer.kicad_sch"
+			(at 173.99 109.8046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "D1" input
+			(at 173.99 52.07 180)
+			(uuid "6d6fe906-63ff-499d-8292-309f7edb940f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "D2" input
+			(at 173.99 54.61 180)
+			(uuid "70509413-b944-4e31-9c3f-057d9f5f8339")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "D3" input
+			(at 173.99 57.15 180)
+			(uuid "efda9e55-3743-439d-8fe7-2b1f618f293d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "D4" input
+			(at 173.99 59.69 180)
+			(uuid "a7b0b535-ed3a-4520-87eb-fdc423eed717")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "D5" input
+			(at 173.99 62.23 180)
+			(uuid "c576f60f-fc02-4b8f-aaab-f228709740b4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "D6" input
+			(at 173.99 64.77 180)
+			(uuid "c09b2d43-1dad-4a7b-8a8b-96e23c60f050")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "D7" input
+			(at 173.99 67.31 180)
+			(uuid "ed910904-71c0-47ed-9a7b-877265957a61")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "D8" input
+			(at 173.99 69.85 180)
+			(uuid "212592fa-126e-4338-a0fe-acbf614606b7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "LE0" input
+			(at 173.99 73.66 180)
+			(uuid "b222a8a9-2113-44e3-bc6f-0e0a6e6b3d5c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "LE1" input
+			(at 173.99 76.2 180)
+			(uuid "7b473778-ceec-4e01-9ccf-f67475d7d0dc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "LE2" input
+			(at 173.99 78.74 180)
+			(uuid "333c6d62-77df-479a-86cc-815334da6d65")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "LE3" input
+			(at 173.99 81.28 180)
+			(uuid "389d15d2-7110-4db3-9f8c-4092bfd9b8be")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "LE4" input
+			(at 173.99 83.82 180)
+			(uuid "51fee483-f719-4243-bc2a-3cdabd731c09")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "LE5" input
+			(at 173.99 86.36 180)
+			(uuid "65133f11-605a-4446-b22e-4bfb14ad2a80")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "LE6" input
+			(at 173.99 88.9 180)
+			(uuid "0fba6545-98be-4b37-bd50-5cf9f94d91d1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "LE7" input
+			(at 173.99 91.44 180)
+			(uuid "b65da935-faf6-41ae-955e-8a32c8c95880")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "LE8" input
+			(at 173.99 93.98 180)
+			(uuid "d71a427c-5a1c-40ef-8890-eb72e930fdd4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "LE9" input
+			(at 173.99 96.52 180)
+			(uuid "f0c9c06d-2d65-4a4b-b672-a09de7999fb1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "LE10" input
+			(at 173.99 99.06 180)
+			(uuid "08c9028f-6145-4f48-a71b-9f80f177100d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "LE11" input
+			(at 173.99 101.6 180)
+			(uuid "8dd35aa4-9e7f-48c5-b3ea-f66aaba0eefa")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "LE12" input
+			(at 173.99 104.14 180)
+			(uuid "1d570e3c-e8ee-4e08-89ed-969d17bb1e83")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "_OE" input
+			(at 173.99 48.26 180)
+			(uuid "9fc5af14-87b0-4f51-860e-306cc7444cff")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "LedCube"
+				(path "/d841f243-58ca-43b1-97d8-f9d66a21f32b"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)

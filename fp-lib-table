@@ -1,0 +1,5 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "SN74LVC373ARGYR")(type "KiCad")(uri "${KIPRJMOD}/Libs/ul_SN74LVC373ARGYR/KiCADv6/footprints.pretty")(options "")(descr ""))
+  (lib (name "JST B10B-PHDSS-B(LF)(SN)")(type "KiCad")(uri "${KIPRJMOD}/Libs/LIB_B10B-PHDSS-B_LF__SN_/B10B-PHDSS-B_LF__SN_/KiCad")(options "")(descr ""))
+)
