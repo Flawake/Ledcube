@@ -51,8 +51,72 @@
           "min_clearance": 0.5
         }
       },
-      "diff_pair_dimensions": [],
-      "drc_exclusions": [],
+      "diff_pair_dimensions": [
+        {
+          "gap": 0.0,
+          "via_gap": 0.0,
+          "width": 0.0
+        },
+        {
+          "gap": 0.15,
+          "via_gap": 0.0,
+          "width": 0.243
+        }
+      ],
+      "drc_exclusions": [
+        [
+          "annular_width|38650000|92710000|39e5e778-dc28-4e89-a486-cada43446499|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "annular_width|38650000|98490000|b1a7a2a9-51c2-4f2d-bfe5-8fe97f776298|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "annular_width|38680000|82370000|39ca1989-fd82-4abc-b2ae-deb906a3aee5|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "annular_width|38680000|88150000|3252299c-990e-49eb-a899-7b21f53a60cc|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "lib_footprint_mismatch|69851000|54500000|1ce899ed-e878-4399-afcd-b261afa6df6e|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "padstack|38650000|92710000|39e5e778-dc28-4e89-a486-cada43446499|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "padstack|38650000|98490000|b1a7a2a9-51c2-4f2d-bfe5-8fe97f776298|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "padstack|38680000|82370000|39ca1989-fd82-4abc-b2ae-deb906a3aee5|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "padstack|38680000|88150000|3252299c-990e-49eb-a899-7b21f53a60cc|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "silk_edge_clearance|33685000|100170000|788abc93-ed14-444f-8a80-68296ac3b850|8b0c50b2-3b44-478d-82f4-9d5817903327",
+          ""
+        ],
+        [
+          "silk_edge_clearance|33685000|80760000|788abc93-ed14-444f-8a80-68296ac3b850|82e5f654-d50a-48ef-8458-1e933bc0e0e5",
+          ""
+        ],
+        [
+          "silk_edge_clearance|33685000|89830000|788abc93-ed14-444f-8a80-68296ac3b850|fafb82f3-a4d2-4270-a6f2-6ab77d5cb664",
+          ""
+        ],
+        [
+          "silk_edge_clearance|33685000|91100000|788abc93-ed14-444f-8a80-68296ac3b850|dd295ec9-6cd8-4a8e-8098-553fecbb6235",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -117,23 +181,23 @@
       },
       "rules": {
         "max_error": 0.005,
-        "min_clearance": 0.0,
+        "min_clearance": 0.09,
         "min_connection": 0.0,
-        "min_copper_edge_clearance": 0.5,
+        "min_copper_edge_clearance": 0.3,
         "min_groove_width": 0.0,
-        "min_hole_clearance": 0.25,
+        "min_hole_clearance": 0.1,
         "min_hole_to_hole": 0.25,
-        "min_microvia_diameter": 0.2,
-        "min_microvia_drill": 0.1,
-        "min_resolved_spokes": 2,
+        "min_microvia_diameter": 0.3,
+        "min_microvia_drill": 0.15,
+        "min_resolved_spokes": 1,
         "min_silk_clearance": 0.0,
         "min_text_height": 0.8,
         "min_text_thickness": 0.08,
-        "min_through_hole_diameter": 0.3,
-        "min_track_width": 0.0,
-        "min_via_annular_width": 0.1,
-        "min_via_diameter": 0.5,
-        "solder_mask_to_copper_clearance": 0.0,
+        "min_through_hole_diameter": 0.2,
+        "min_track_width": 0.09,
+        "min_via_annular_width": 0.075,
+        "min_via_diameter": 0.4,
+        "solder_mask_to_copper_clearance": 0.005,
         "use_height_for_length_calcs": true
       },
       "teardrop_options": [
@@ -180,7 +244,10 @@
           "td_width_to_size_filter_ratio": 0.9
         }
       ],
-      "track_widths": [],
+      "track_widths": [
+        0.0,
+        0.2
+      ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
           "corner_radius_percentage": 80,
@@ -207,7 +274,16 @@
           "spacing": 0.6
         }
       },
-      "via_dimensions": [],
+      "via_dimensions": [
+        {
+          "diameter": 0.0,
+          "drill": 0.0
+        },
+        {
+          "diameter": 0.45,
+          "drill": 0.3
+        }
+      ],
       "zones_allow_external_fillets": false
     },
     "ipc2581": {
@@ -440,6 +516,7 @@
       "single_global_label": "ignore",
       "unannotated": "error",
       "unconnected_wire_endpoint": "warning",
+      "undefined_netclass": "error",
       "unit_value_mismatch": "error",
       "unresolved_variable": "error",
       "wire_dangling": "error"
@@ -457,20 +534,20 @@
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.2,
+        "clearance": 0.09,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 0,
         "microvia_diameter": 0.3,
-        "microvia_drill": 0.1,
+        "microvia_drill": 0.15,
         "name": "Default",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.2,
+        "track_width": 0.09,
         "via_diameter": 0.6,
-        "via_drill": 0.3,
+        "via_drill": 0.15,
         "wire_width": 6
       }
     ],
@@ -559,12 +636,102 @@
           "label": "Datasheet",
           "name": "Datasheet",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Height",
+          "name": "Height",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "LCSC",
+          "name": "LCSC",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "LCSC Counterpart",
+          "name": "LCSC Counterpart",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "LCSC Part",
+          "name": "LCSC Part",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer_Name",
+          "name": "Manufacturer_Name",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer_Part_Number",
+          "name": "Manufacturer_Part_Number",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Mouser Part Number",
+          "name": "Mouser Part Number",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Mouser Price/Stock",
+          "name": "Mouser Price/Stock",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Part",
+          "name": "Part",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Device",
+          "name": "Sim.Device",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Pins",
+          "name": "Sim.Pins",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Type",
+          "name": "Sim.Type",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Corresponding female",
+          "name": "Corresponding female",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": true,
-      "name": "Default Editing",
+      "name": "",
       "sort_asc": true,
       "sort_field": "Reference"
     },
@@ -624,6 +791,18 @@
     [
       "c4ffdf96-4e78-44c2-894f-e02bd9259c73",
       "Multiplexer"
+    ],
+    [
+      "b469d41c-c254-4e39-bd8e-b0a942ea71f9",
+      "USB-PD"
+    ],
+    [
+      "fe9ff524-68f8-4e7e-9c92-edc6b630061a",
+      "Sensor suite"
+    ],
+    [
+      "9da73cd9-5c63-4397-9807-1d444e887bd9",
+      "BLE"
     ]
   ],
   "text_variables": {}
