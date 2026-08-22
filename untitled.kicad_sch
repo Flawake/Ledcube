@@ -7386,7 +7386,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "TVS Diode Array, 5.5V Standoff, 2 Channels, SOT23"
 			(at 113.03 123.19 0)
 			(effects
 				(font

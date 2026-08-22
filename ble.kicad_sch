@@ -5,113 +5,6 @@
 	(uuid "4e64a599-a77e-4a5f-882d-4d4626799e90")
 	(paper "A3")
 	(lib_symbols
-		(symbol "Connector:TestPoint"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.762)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "TP"
-				(at 0 6.858 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "TestPoint"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 5.08 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 5.08 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "test point"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "test point tp"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Pin* Test*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "TestPoint_0_1"
-				(circle
-					(center 0 3.302)
-					(radius 0.762)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "TestPoint_1_1"
-				(pin passive line
-					(at 0 0 90)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:C"
 			(pin_numbers
 				(hide yes)
@@ -1689,12 +1582,6 @@
 		(uuid "5814a8b6-e517-42a0-8ee0-df5e8c1a9d8a")
 	)
 	(junction
-		(at 257.81 189.23)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "598b2532-78b3-4388-af2d-a7e43c5cd326")
-	)
-	(junction
 		(at 172.72 158.75)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1741,12 +1628,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bc55af4e-03ea-4989-a568-84e5ef53b1ae")
-	)
-	(junction
-		(at 250.19 67.31)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c58c205e-7f08-430f-83ab-de0eea1c2f08")
 	)
 	(junction
 		(at 189.23 220.98)
@@ -1900,7 +1781,7 @@
 	)
 	(wire
 		(pts
-			(xy 254 189.23) (xy 257.81 189.23)
+			(xy 254 189.23) (xy 265.43 189.23)
 		)
 		(stroke
 			(width 0)
@@ -2007,16 +1888,6 @@
 			(type default)
 		)
 		(uuid "38c55b71-b366-44c5-9622-e0a0d48ce5fa")
-	)
-	(wire
-		(pts
-			(xy 248.92 67.31) (xy 250.19 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3ada677e-f7c3-42e2-899e-645ac7769751")
 	)
 	(wire
 		(pts
@@ -2220,7 +2091,7 @@
 	)
 	(wire
 		(pts
-			(xy 250.19 67.31) (xy 252.73 67.31)
+			(xy 248.92 67.31) (xy 252.73 67.31)
 		)
 		(stroke
 			(width 0)
@@ -2627,16 +2498,6 @@
 			(type default)
 		)
 		(uuid "e98f9d2c-4fbf-40aa-88a8-b5bc057bbf37")
-	)
-	(wire
-		(pts
-			(xy 265.43 189.23) (xy 257.81 189.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ed353305-c8a3-445e-80ae-7f5a6c3de22c")
 	)
 	(wire
 		(pts
@@ -4913,26 +4774,6 @@
 				(hide yes)
 			)
 		)
-		(property private "KLC_S3.3" "The rectangle is not a symbol body but a graphical element"
-			(at 165.1 124.46 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property private "KLC_S4.1" "Some pins are on 50mil grid to make the symbol small"
-			(at 165.1 127 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "LCSC" "C3034368"
 			(at 165.1 111.76 0)
 			(effects
@@ -6159,78 +6000,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 250.19 67.31 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "714c406d-8484-4881-882b-63f4d4230118")
-		(property "Reference" "TP1"
-			(at 248.158 58.166 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 248.158 60.706 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 255.27 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 255.27 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 250.19 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "65bd27e6-3204-46d0-896d-fe283104cac4")
-		)
-		(instances
-			(project "ble"
-				(path "/4e64a599-a77e-4a5f-882d-4d4626799e90"
-					(reference "TP1")
-					(unit 1)
-				)
-			)
-			(project ""
-				(path "/d841f243-58ca-43b1-97d8-f9d66a21f32b/9da73cd9-5c63-4397-9807-1d444e887bd9"
-					(reference "TP1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 194.31 78.74 0)
 		(unit 1)
@@ -6367,78 +6136,6 @@
 			(project "LedCube"
 				(path "/d841f243-58ca-43b1-97d8-f9d66a21f32b/9da73cd9-5c63-4397-9807-1d444e887bd9"
 					(reference "#PWR0188")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 257.81 189.23 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "74f1b2a8-de4c-4952-9f31-488088b0efb0")
-		(property "Reference" "TP2"
-			(at 254.762 181.356 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 254.762 183.896 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 262.89 189.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 262.89 189.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 257.81 189.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0f57a315-04ce-4220-ac1d-3efef0fb705e")
-		)
-		(instances
-			(project "ble"
-				(path "/4e64a599-a77e-4a5f-882d-4d4626799e90"
-					(reference "TP2")
-					(unit 1)
-				)
-			)
-			(project "LedCube"
-				(path "/d841f243-58ca-43b1-97d8-f9d66a21f32b/9da73cd9-5c63-4397-9807-1d444e887bd9"
-					(reference "TP2")
 					(unit 1)
 				)
 			)
@@ -6709,26 +6406,6 @@
 		)
 		(property "Description" "Four pin crystal, GND on pins 2 and 4"
 			(at 170.18 233.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property private "KLC_S3.3" "The rectangle is not a symbol body but a graphical element"
-			(at 170.18 246.38 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property private "KLC_S4.1" "Some pins are on 50mil grid to make the symbol small"
-			(at 170.18 248.92 0)
-			(show_name yes)
 			(effects
 				(font
 					(size 1.27 1.27)
