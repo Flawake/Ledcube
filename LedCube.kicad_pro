@@ -803,7 +803,7 @@
         "uuid": "d841f243-58ca-43b1-97d8-f9d66a21f32b"
       }
     ],
-    "used_designators": "#PWR216,D29,R23,R25,R64,R66",
+    "used_designators": "U24,#PWR216,D29,R23,R25,R64,R66",
     "variants": []
   },
   "sheets": [
